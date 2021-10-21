@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_366fbccde24c444ea30f30cc155d05cb {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_366fbccde24c444ea30f30cc155d05cb" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_366fbccde24c444ea30f30cc155d05cb = L.map(
+        'map_366fbccde24c444ea30f30cc155d05cb', {
+        center: [35.7058, 4.5419],
+        zoom: 6,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_aa0e126999a140b1977caca47280be05 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+    
+        var marker_a69d13ff2cb34eb48f36bc2fcad95495 = L.marker(
+            [27.195, 2.4826],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_1a2d456e4479440aa59b426fc5cc3a01 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8ee4f4c6571748d88879699090b319af = $(`<div id="html_8ee4f4c6571748d88879699090b319af" style="width: 100.0%; height: 100.0%;"><strong>In salah</strong><br>temperature: 25 °C <br>clear sky</div>`)[0];
+                popup_1a2d456e4479440aa59b426fc5cc3a01.setContent(html_8ee4f4c6571748d88879699090b319af);
+            
+
+            marker_a69d13ff2cb34eb48f36bc2fcad95495.bindPopup(popup_1a2d456e4479440aa59b426fc5cc3a01)
+            ;
+
+            
+        
+    
+        var marker_23ac3969d0fe494e914d669c15fbf12b = L.marker(
+            [30.5667, 2.8833],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_0fb6e7cc44f04bcd8e7310af6998cf57 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4c1e1009f52f465d996e6e7b89945248 = $(`<div id="html_4c1e1009f52f465d996e6e7b89945248" style="width: 100.0%; height: 100.0%;"><strong>El meniaa</strong><br>temperature: 24 °C <br>clear sky</div>`)[0];
+                popup_0fb6e7cc44f04bcd8e7310af6998cf57.setContent(html_4c1e1009f52f465d996e6e7b89945248);
+            
+
+            marker_23ac3969d0fe494e914d669c15fbf12b.bindPopup(popup_0fb6e7cc44f04bcd8e7310af6998cf57)
+            ;
+
+            
+        
+    
+        var marker_5aca52608c244018a6bb69856110c0a3 = L.marker(
+            [36.1652, 1.3345],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_11eb8fa9a1944817b7bc11b65640e4fc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9957f73a2822432a998d2e08bb730f5d = $(`<div id="html_9957f73a2822432a998d2e08bb730f5d" style="width: 100.0%; height: 100.0%;"><strong>Chlef</strong><br>temperature: 23 °C <br>clear sky</div>`)[0];
+                popup_11eb8fa9a1944817b7bc11b65640e4fc.setContent(html_9957f73a2822432a998d2e08bb730f5d);
+            
+
+            marker_5aca52608c244018a6bb69856110c0a3.bindPopup(popup_11eb8fa9a1944817b7bc11b65640e4fc)
+            ;
+
+            
+        
+    
+        var marker_a363cb38893d4340a995eec1735f738e = L.marker(
+            [33.8, 2.8651],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_de2e7065b968429db816f54de85e11d7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_252855c43a624bf5baee36a635144978 = $(`<div id="html_252855c43a624bf5baee36a635144978" style="width: 100.0%; height: 100.0%;"><strong>Laghouat</strong><br>temperature: 17 °C <br>broken clouds</div>`)[0];
+                popup_de2e7065b968429db816f54de85e11d7.setContent(html_252855c43a624bf5baee36a635144978);
+            
+
+            marker_a363cb38893d4340a995eec1735f738e.bindPopup(popup_de2e7065b968429db816f54de85e11d7)
+            ;
+
+            
+        
+    
+        var marker_bdf92efc4cad4b7493b4d2b21b25668f = L.marker(
+            [35.8754, 7.1135],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_ffa51901465f4bdc8835c1b403c1b48b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_47d175c5af4940a7b7fa8c07eb8b1515 = $(`<div id="html_47d175c5af4940a7b7fa8c07eb8b1515" style="width: 100.0%; height: 100.0%;"><strong>Oum el bouaghi</strong><br>temperature: 15 °C <br>overcast clouds</div>`)[0];
+                popup_ffa51901465f4bdc8835c1b403c1b48b.setContent(html_47d175c5af4940a7b7fa8c07eb8b1515);
+            
+
+            marker_bdf92efc4cad4b7493b4d2b21b25668f.bindPopup(popup_ffa51901465f4bdc8835c1b403c1b48b)
+            ;
+
+            
+        
+    
+        var marker_d5f328afdcb14263ad8f5c27106de36a = L.marker(
+            [35.556, 6.1741],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_8db3c3bdbc8c4bb5857fe555ebad8cd2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_db5e86e30356475f8f1f23babc809c95 = $(`<div id="html_db5e86e30356475f8f1f23babc809c95" style="width: 100.0%; height: 100.0%;"><strong>Batna</strong><br>temperature: 12 °C <br>overcast clouds</div>`)[0];
+                popup_8db3c3bdbc8c4bb5857fe555ebad8cd2.setContent(html_db5e86e30356475f8f1f23babc809c95);
+            
+
+            marker_d5f328afdcb14263ad8f5c27106de36a.bindPopup(popup_8db3c3bdbc8c4bb5857fe555ebad8cd2)
+            ;
+
+            
+        
+    
+        var marker_c99fa91b797e42eda11950149466f6c2 = L.marker(
+            [36.7559, 5.0843],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_d9d75f4f5a5a4bdbba9a570480bcac0a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d46cc1e5a41e4ca8a868bc2eb85e51ac = $(`<div id="html_d46cc1e5a41e4ca8a868bc2eb85e51ac" style="width: 100.0%; height: 100.0%;"><strong>Bejaia</strong><br>temperature: 18 °C <br>clear sky</div>`)[0];
+                popup_d9d75f4f5a5a4bdbba9a570480bcac0a.setContent(html_d46cc1e5a41e4ca8a868bc2eb85e51ac);
+            
+
+            marker_c99fa91b797e42eda11950149466f6c2.bindPopup(popup_d9d75f4f5a5a4bdbba9a570480bcac0a)
+            ;
+
+            
+        
+    
+        var marker_cd7c9308f93f43f1bdc89830ef4a3064 = L.marker(
+            [34.8504, 5.7281],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_65ae8407460a43c98513a9ce36fac2ee = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_af2f93591ef84e06a12a44195b9d1034 = $(`<div id="html_af2f93591ef84e06a12a44195b9d1034" style="width: 100.0%; height: 100.0%;"><strong>Biskra</strong><br>temperature: 21 °C <br>clear sky</div>`)[0];
+                popup_65ae8407460a43c98513a9ce36fac2ee.setContent(html_af2f93591ef84e06a12a44195b9d1034);
+            
+
+            marker_cd7c9308f93f43f1bdc89830ef4a3064.bindPopup(popup_65ae8407460a43c98513a9ce36fac2ee)
+            ;
+
+            
+        
+    
+        var marker_d33392daff18488a9cf362a4864db746 = L.marker(
+            [31.6167, -2.2167],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_f00eeaca7298447a9cd702adc671e441 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_61cf2dea4c164790a18cdd1291af8945 = $(`<div id="html_61cf2dea4c164790a18cdd1291af8945" style="width: 100.0%; height: 100.0%;"><strong>Bechar</strong><br>temperature: 21 °C <br>clear sky</div>`)[0];
+                popup_f00eeaca7298447a9cd702adc671e441.setContent(html_61cf2dea4c164790a18cdd1291af8945);
+            
+
+            marker_d33392daff18488a9cf362a4864db746.bindPopup(popup_f00eeaca7298447a9cd702adc671e441)
+            ;
+
+            
+        
+    
+        var marker_9939282e92854cb8973f015c6bb5a7d5 = L.marker(
+            [36.47, 2.8277],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_d91d0a40e16d4aefa4057331bd26b00f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fd15fc8f8cc74d2e85bae0384a7c5f63 = $(`<div id="html_fd15fc8f8cc74d2e85bae0384a7c5f63" style="width: 100.0%; height: 100.0%;"><strong>Blida</strong><br>temperature: 17 °C <br>clear sky</div>`)[0];
+                popup_d91d0a40e16d4aefa4057331bd26b00f.setContent(html_fd15fc8f8cc74d2e85bae0384a7c5f63);
+            
+
+            marker_9939282e92854cb8973f015c6bb5a7d5.bindPopup(popup_d91d0a40e16d4aefa4057331bd26b00f)
+            ;
+
+            
+        
+    
+        var marker_ba5cd0fb0e124f3c870e2950c032b4c9 = L.marker(
+            [36.3749, 3.902],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_562bbcebde424b35acae0f4f9b81ce2c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5cfd012a863d42d28e7943eebec08da0 = $(`<div id="html_5cfd012a863d42d28e7943eebec08da0" style="width: 100.0%; height: 100.0%;"><strong>Bouira</strong><br>temperature: 17 °C <br>broken clouds</div>`)[0];
+                popup_562bbcebde424b35acae0f4f9b81ce2c.setContent(html_5cfd012a863d42d28e7943eebec08da0);
+            
+
+            marker_ba5cd0fb0e124f3c870e2950c032b4c9.bindPopup(popup_562bbcebde424b35acae0f4f9b81ce2c)
+            ;
+
+            
+        
+    
+        var marker_0145600e6dc646ecade99b5666e115b8 = L.marker(
+            [22.785, 5.5228],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_27f6c76613d045bcb8fb29b8c7ee96c4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a514695e05874a67b29af3a07c651063 = $(`<div id="html_a514695e05874a67b29af3a07c651063" style="width: 100.0%; height: 100.0%;"><strong>Tamanrasset</strong><br>temperature: 25 °C <br>haze</div>`)[0];
+                popup_27f6c76613d045bcb8fb29b8c7ee96c4.setContent(html_a514695e05874a67b29af3a07c651063);
+            
+
+            marker_0145600e6dc646ecade99b5666e115b8.bindPopup(popup_27f6c76613d045bcb8fb29b8c7ee96c4)
+            ;
+
+            
+        
+    
+        var marker_ba3022cd9c004103903a038ba504011e = L.marker(
+            [35.4042, 8.1242],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_e56969cbffcb486e8375cc52d88d5568 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_72e2b4fb8bba4388b1370215ec864338 = $(`<div id="html_72e2b4fb8bba4388b1370215ec864338" style="width: 100.0%; height: 100.0%;"><strong>Tebessa</strong><br>temperature: 16 °C <br>clear sky</div>`)[0];
+                popup_e56969cbffcb486e8375cc52d88d5568.setContent(html_72e2b4fb8bba4388b1370215ec864338);
+            
+
+            marker_ba3022cd9c004103903a038ba504011e.bindPopup(popup_e56969cbffcb486e8375cc52d88d5568)
+            ;
+
+            
+        
+    
+        var marker_c6181ab1986b484da954b04d66dd0445 = L.marker(
+            [34.8783, -1.315],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_c09162d577c44973b72b7a3070184d06 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_af6cdd4248e44a4986a8cb873cf32ac5 = $(`<div id="html_af6cdd4248e44a4986a8cb873cf32ac5" style="width: 100.0%; height: 100.0%;"><strong>Tlemcen</strong><br>temperature: 14 °C <br>clear sky</div>`)[0];
+                popup_c09162d577c44973b72b7a3070184d06.setContent(html_af6cdd4248e44a4986a8cb873cf32ac5);
+            
+
+            marker_c6181ab1986b484da954b04d66dd0445.bindPopup(popup_c09162d577c44973b72b7a3070184d06)
+            ;
+
+            
+        
+    
+        var marker_85595182a48e44f2b9b74f5f4e38ec47 = L.marker(
+            [35.371, 1.317],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_82033e1bc08547cfa3d3763344306e4e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f54eb9f0a9aa4162862e90b38c7a0fa3 = $(`<div id="html_f54eb9f0a9aa4162862e90b38c7a0fa3" style="width: 100.0%; height: 100.0%;"><strong>Tiaret</strong><br>temperature: 14 °C <br>clear sky</div>`)[0];
+                popup_82033e1bc08547cfa3d3763344306e4e.setContent(html_f54eb9f0a9aa4162862e90b38c7a0fa3);
+            
+
+            marker_85595182a48e44f2b9b74f5f4e38ec47.bindPopup(popup_82033e1bc08547cfa3d3763344306e4e)
+            ;
+
+            
+        
+    
+        var marker_62612b01e7ec4e69aa35ff11cc289a44 = L.marker(
+            [36.7118, 4.0459],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_52a21ef27aff4d2094b367a17ca66b0d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_71b61c97bdd34f81bf3d7afc744f2607 = $(`<div id="html_71b61c97bdd34f81bf3d7afc744f2607" style="width: 100.0%; height: 100.0%;"><strong>Tizi ouzou</strong><br>temperature: 18 °C <br>scattered clouds</div>`)[0];
+                popup_52a21ef27aff4d2094b367a17ca66b0d.setContent(html_71b61c97bdd34f81bf3d7afc744f2607);
+            
+
+            marker_62612b01e7ec4e69aa35ff11cc289a44.bindPopup(popup_52a21ef27aff4d2094b367a17ca66b0d)
+            ;
+
+            
+        
+    
+        var marker_cc87ce1cee274ec9933f870dc53f6d21 = L.marker(
+            [36.7525, 3.042],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_695792a9807546c7b5d82b5281b5746a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d6a8a43b72654bf7b2babb0871b4f27d = $(`<div id="html_d6a8a43b72654bf7b2babb0871b4f27d" style="width: 100.0%; height: 100.0%;"><strong>Algiers</strong><br>temperature: 18 °C <br>clear sky</div>`)[0];
+                popup_695792a9807546c7b5d82b5281b5746a.setContent(html_d6a8a43b72654bf7b2babb0871b4f27d);
+            
+
+            marker_cc87ce1cee274ec9933f870dc53f6d21.bindPopup(popup_695792a9807546c7b5d82b5281b5746a)
+            ;
+
+            
+        
+    
+        var marker_7015b4bf3b61413eba887e362ed1547f = L.marker(
+            [34.6728, 3.263],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_cad9c776dbd6464f9e725e2f6253cd55 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b08657b1d4674389987871870e42bf4b = $(`<div id="html_b08657b1d4674389987871870e42bf4b" style="width: 100.0%; height: 100.0%;"><strong>Djelfa</strong><br>temperature: 15 °C <br>overcast clouds</div>`)[0];
+                popup_cad9c776dbd6464f9e725e2f6253cd55.setContent(html_b08657b1d4674389987871870e42bf4b);
+            
+
+            marker_7015b4bf3b61413eba887e362ed1547f.bindPopup(popup_cad9c776dbd6464f9e725e2f6253cd55)
+            ;
+
+            
+        
+    
+        var marker_990eb6e5c9a1479698b39f1821574b62 = L.marker(
+            [36.8205, 5.7667],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_db417b8ddd6243daa1e2b6f299fed839 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0804c8424c974fdba8928255ed51e22f = $(`<div id="html_0804c8424c974fdba8928255ed51e22f" style="width: 100.0%; height: 100.0%;"><strong>Jijel</strong><br>temperature: 17 °C <br>clear sky</div>`)[0];
+                popup_db417b8ddd6243daa1e2b6f299fed839.setContent(html_0804c8424c974fdba8928255ed51e22f);
+            
+
+            marker_990eb6e5c9a1479698b39f1821574b62.bindPopup(popup_db417b8ddd6243daa1e2b6f299fed839)
+            ;
+
+            
+        
+    
+        var marker_9d781bcf10604d92b3d8513e27011a65 = L.marker(
+            [36.1911, 5.4137],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_5815e3e7e9a042d9bead68ef37257b83 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a7cb9855b2a44960a71222e210a02930 = $(`<div id="html_a7cb9855b2a44960a71222e210a02930" style="width: 100.0%; height: 100.0%;"><strong>Setif</strong><br>temperature: 14 °C <br>overcast clouds</div>`)[0];
+                popup_5815e3e7e9a042d9bead68ef37257b83.setContent(html_a7cb9855b2a44960a71222e210a02930);
+            
+
+            marker_9d781bcf10604d92b3d8513e27011a65.bindPopup(popup_5815e3e7e9a042d9bead68ef37257b83)
+            ;
+
+            
+        
+    
+        var marker_75614801a27342238fa1dc0c90525f83 = L.marker(
+            [34.8303, 0.1517],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_a4373c0812c840059d9e56b4761c8ece = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f5e2aa80ec684a1d88fab67d60aa519b = $(`<div id="html_f5e2aa80ec684a1d88fab67d60aa519b" style="width: 100.0%; height: 100.0%;"><strong>Saida</strong><br>temperature: 15 °C <br>few clouds</div>`)[0];
+                popup_a4373c0812c840059d9e56b4761c8ece.setContent(html_f5e2aa80ec684a1d88fab67d60aa519b);
+            
+
+            marker_75614801a27342238fa1dc0c90525f83.bindPopup(popup_a4373c0812c840059d9e56b4761c8ece)
+            ;
+
+            
+        
+    
+        var marker_88871f7d60a14f95b0d610b1b2030987 = L.marker(
+            [36.8762, 6.9092],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_9afcd451f0af4f4d8a02ed67ba04b1e3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3d596332239c42d890e1658750ac0d7c = $(`<div id="html_3d596332239c42d890e1658750ac0d7c" style="width: 100.0%; height: 100.0%;"><strong>Skikda</strong><br>temperature: 20 °C <br>broken clouds</div>`)[0];
+                popup_9afcd451f0af4f4d8a02ed67ba04b1e3.setContent(html_3d596332239c42d890e1658750ac0d7c);
+            
+
+            marker_88871f7d60a14f95b0d610b1b2030987.bindPopup(popup_9afcd451f0af4f4d8a02ed67ba04b1e3)
+            ;
+
+            
+        
+    
+        var marker_562489655d114de0b30b8a23cefb8e5b = L.marker(
+            [35.1899, -0.6309],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_ef969f07e2f2464e90bed8fe776f01ca = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1416078d039b4a31ad96eaa4c80ad080 = $(`<div id="html_1416078d039b4a31ad96eaa4c80ad080" style="width: 100.0%; height: 100.0%;"><strong>Sidi bel abbes</strong><br>temperature: 15 °C <br>scattered clouds</div>`)[0];
+                popup_ef969f07e2f2464e90bed8fe776f01ca.setContent(html_1416078d039b4a31ad96eaa4c80ad080);
+            
+
+            marker_562489655d114de0b30b8a23cefb8e5b.bindPopup(popup_ef969f07e2f2464e90bed8fe776f01ca)
+            ;
+
+            
+        
+    
+        var marker_59bd769a2eab45988105d9de8121dabb = L.marker(
+            [36.9, 7.7667],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_0b13d8c7b3da4da28eac510a50085a08 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_999df200f8054d63b3b2a0835c5e2df9 = $(`<div id="html_999df200f8054d63b3b2a0835c5e2df9" style="width: 100.0%; height: 100.0%;"><strong>Annaba</strong><br>temperature: 18 °C <br>clear sky</div>`)[0];
+                popup_0b13d8c7b3da4da28eac510a50085a08.setContent(html_999df200f8054d63b3b2a0835c5e2df9);
+            
+
+            marker_59bd769a2eab45988105d9de8121dabb.bindPopup(popup_0b13d8c7b3da4da28eac510a50085a08)
+            ;
+
+            
+        
+    
+        var marker_de08fbe46672458dacdda51c66abcb2b = L.marker(
+            [36.4621, 7.4261],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_ff9089d594a14cee87521d5e7619da11 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d0c9533970184a0e8bf09427da01266f = $(`<div id="html_d0c9533970184a0e8bf09427da01266f" style="width: 100.0%; height: 100.0%;"><strong>Guelma</strong><br>temperature: 16 °C <br>overcast clouds</div>`)[0];
+                popup_ff9089d594a14cee87521d5e7619da11.setContent(html_d0c9533970184a0e8bf09427da01266f);
+            
+
+            marker_de08fbe46672458dacdda51c66abcb2b.bindPopup(popup_ff9089d594a14cee87521d5e7619da11)
+            ;
+
+            
+        
+    
+        var marker_5c5bed2771b24f90bef67d250a77218a = L.marker(
+            [36.365, 6.6147],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_627611191c1f498aa89e0ef9531faad1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_68a31fc89d3d40809853736c7f0a881b = $(`<div id="html_68a31fc89d3d40809853736c7f0a881b" style="width: 100.0%; height: 100.0%;"><strong>Constantine</strong><br>temperature: 17 °C <br>clear sky</div>`)[0];
+                popup_627611191c1f498aa89e0ef9531faad1.setContent(html_68a31fc89d3d40809853736c7f0a881b);
+            
+
+            marker_5c5bed2771b24f90bef67d250a77218a.bindPopup(popup_627611191c1f498aa89e0ef9531faad1)
+            ;
+
+            
+        
+    
+        var marker_dd3c02d02433456580a271e88ad5f631 = L.marker(
+            [36.2642, 2.7539],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_48a8e3d2d5f3460e8ba0bfb04ef3cbde = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e0e25fcc27aa4fe28a858d35e7ddd85f = $(`<div id="html_e0e25fcc27aa4fe28a858d35e7ddd85f" style="width: 100.0%; height: 100.0%;"><strong>Medea</strong><br>temperature: 13 °C <br>few clouds</div>`)[0];
+                popup_48a8e3d2d5f3460e8ba0bfb04ef3cbde.setContent(html_e0e25fcc27aa4fe28a858d35e7ddd85f);
+            
+
+            marker_dd3c02d02433456580a271e88ad5f631.bindPopup(popup_48a8e3d2d5f3460e8ba0bfb04ef3cbde)
+            ;
+
+            
+        
+    
+        var marker_baa6f1c64dae4c0b8608aeb8e3866f62 = L.marker(
+            [35.9311, 0.0892],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_0f18e78ab7d44ec3a6fd698ef5d8c5f7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_274d2e8296a54f009b09b9e31c7d9ba2 = $(`<div id="html_274d2e8296a54f009b09b9e31c7d9ba2" style="width: 100.0%; height: 100.0%;"><strong>Mostaganem</strong><br>temperature: 20 °C <br>broken clouds</div>`)[0];
+                popup_0f18e78ab7d44ec3a6fd698ef5d8c5f7.setContent(html_274d2e8296a54f009b09b9e31c7d9ba2);
+            
+
+            marker_baa6f1c64dae4c0b8608aeb8e3866f62.bindPopup(popup_0f18e78ab7d44ec3a6fd698ef5d8c5f7)
+            ;
+
+            
+        
+    
+        var marker_eed77466d4514ab6b2184b3289439e15 = L.marker(
+            [35.7058, 4.5419],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_980e4c3bc26f468f9413d6666b6e15a8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ad99a18f0de642b0af9231edda67e306 = $(`<div id="html_ad99a18f0de642b0af9231edda67e306" style="width: 100.0%; height: 100.0%;"><strong>Msila</strong><br>temperature: 19 °C <br>overcast clouds</div>`)[0];
+                popup_980e4c3bc26f468f9413d6666b6e15a8.setContent(html_ad99a18f0de642b0af9231edda67e306);
+            
+
+            marker_eed77466d4514ab6b2184b3289439e15.bindPopup(popup_980e4c3bc26f468f9413d6666b6e15a8)
+            ;
+
+            
+        
+    
+        var marker_e0ec95ad953c4fdc8c70dd3d93fc1480 = L.marker(
+            [35.3966, 0.1403],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_8c43be81df994c1697f53e906d507cea = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_aad5734160464597940f032972725fc1 = $(`<div id="html_aad5734160464597940f032972725fc1" style="width: 100.0%; height: 100.0%;"><strong>Mascara</strong><br>temperature: 16 °C <br>clear sky</div>`)[0];
+                popup_8c43be81df994c1697f53e906d507cea.setContent(html_aad5734160464597940f032972725fc1);
+            
+
+            marker_e0ec95ad953c4fdc8c70dd3d93fc1480.bindPopup(popup_8c43be81df994c1697f53e906d507cea)
+            ;
+
+            
+        
+    
+        var marker_4eca54c70a0141068c603571b7363ba0 = L.marker(
+            [31.9493, 5.325],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_6dcdf3346df0477584c488790adad7b5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_22bc2dd907b8432e8e4f267f443e1e3e = $(`<div id="html_22bc2dd907b8432e8e4f267f443e1e3e" style="width: 100.0%; height: 100.0%;"><strong>Ouargla</strong><br>temperature: 23 °C <br>clear sky</div>`)[0];
+                popup_6dcdf3346df0477584c488790adad7b5.setContent(html_22bc2dd907b8432e8e4f267f443e1e3e);
+            
+
+            marker_4eca54c70a0141068c603571b7363ba0.bindPopup(popup_6dcdf3346df0477584c488790adad7b5)
+            ;
+
+            
+        
+    
+        var marker_d3f8c39e2e4141619152df4537aaf036 = L.marker(
+            [35.6911, -0.6417],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_e8e4d8a5e84f469c854e56e061472ddb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_861c5c6f341841908493699c21e27d14 = $(`<div id="html_861c5c6f341841908493699c21e27d14" style="width: 100.0%; height: 100.0%;"><strong>Oran</strong><br>temperature: 15 °C <br>few clouds</div>`)[0];
+                popup_e8e4d8a5e84f469c854e56e061472ddb.setContent(html_861c5c6f341841908493699c21e27d14);
+            
+
+            marker_d3f8c39e2e4141619152df4537aaf036.bindPopup(popup_e8e4d8a5e84f469c854e56e061472ddb)
+            ;
+
+            
+        
+    
+        var marker_462cda76ec4f490fade48374701fd9eb = L.marker(
+            [33.6832, 1.0193],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_30f0125f913146b8ae6397dbaa191055 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8de02051c31a4b269eb2fcf615f2a1ad = $(`<div id="html_8de02051c31a4b269eb2fcf615f2a1ad" style="width: 100.0%; height: 100.0%;"><strong>El bayadh</strong><br>temperature: 16 °C <br>overcast clouds</div>`)[0];
+                popup_30f0125f913146b8ae6397dbaa191055.setContent(html_8de02051c31a4b269eb2fcf615f2a1ad);
+            
+
+            marker_462cda76ec4f490fade48374701fd9eb.bindPopup(popup_30f0125f913146b8ae6397dbaa191055)
+            ;
+
+            
+        
+    
+        var marker_1b915d0ec4ca417d9aa54421e04c8c16 = L.marker(
+            [26.4833, 8.4667],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_2aae67866e9c4a9c8691060faf7475cc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fa2efa66926b4ad4ba67dbd5b48b38e6 = $(`<div id="html_fa2efa66926b4ad4ba67dbd5b48b38e6" style="width: 100.0%; height: 100.0%;"><strong>Illizi</strong><br>temperature: 20 °C <br>overcast clouds</div>`)[0];
+                popup_2aae67866e9c4a9c8691060faf7475cc.setContent(html_fa2efa66926b4ad4ba67dbd5b48b38e6);
+            
+
+            marker_1b915d0ec4ca417d9aa54421e04c8c16.bindPopup(popup_2aae67866e9c4a9c8691060faf7475cc)
+            ;
+
+            
+        
+    
+        var marker_46c0e8c133a94515a01abfa5916dce8c = L.marker(
+            [36.0732, 4.7611],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_040ef479c23547828e676273c3d7053b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d5056c4735c443b28246d37a24e3dff6 = $(`<div id="html_d5056c4735c443b28246d37a24e3dff6" style="width: 100.0%; height: 100.0%;"><strong>Bordj bou arreridj</strong><br>temperature: 14 °C <br>overcast clouds</div>`)[0];
+                popup_040ef479c23547828e676273c3d7053b.setContent(html_d5056c4735c443b28246d37a24e3dff6);
+            
+
+            marker_46c0e8c133a94515a01abfa5916dce8c.bindPopup(popup_040ef479c23547828e676273c3d7053b)
+            ;
+
+            
+        
+    
+        var marker_9c620747b802478bbf91dc8dcad2ae90 = L.marker(
+            [36.7589, 3.4706],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_6f4debe7fab84f61b0a51c827a072759 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3920dfcd3c8d421ea7563adaab929b59 = $(`<div id="html_3920dfcd3c8d421ea7563adaab929b59" style="width: 100.0%; height: 100.0%;"><strong>Boumerdes</strong><br>temperature: 19 °C <br>clear sky</div>`)[0];
+                popup_6f4debe7fab84f61b0a51c827a072759.setContent(html_3920dfcd3c8d421ea7563adaab929b59);
+            
+
+            marker_9c620747b802478bbf91dc8dcad2ae90.bindPopup(popup_6f4debe7fab84f61b0a51c827a072759)
+            ;
+
+            
+        
+    
+        var marker_b54dcd55ebf54ab389a0cd2a42d0c1c7 = L.marker(
+            [36.7672, 8.3138],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_61ecb5d4f693410e84438f5a4967a0dd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f7d7cda872c24721a324a3c74d1b25f8 = $(`<div id="html_f7d7cda872c24721a324a3c74d1b25f8" style="width: 100.0%; height: 100.0%;"><strong>El tarf</strong><br>temperature: 18 °C <br>overcast clouds</div>`)[0];
+                popup_61ecb5d4f693410e84438f5a4967a0dd.setContent(html_f7d7cda872c24721a324a3c74d1b25f8);
+            
+
+            marker_b54dcd55ebf54ab389a0cd2a42d0c1c7.bindPopup(popup_61ecb5d4f693410e84438f5a4967a0dd)
+            ;
+
+            
+        
+    
+        var marker_b9820cd3e5644626abea30652d0677de = L.marker(
+            [27.6711, -8.1474],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_0b5ecbe24c35471696ea2ea7695f9eb8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8e7887a7a28641e984112e14c0bfda8b = $(`<div id="html_8e7887a7a28641e984112e14c0bfda8b" style="width: 100.0%; height: 100.0%;"><strong>Tindouf</strong><br>temperature: 25 °C <br>clear sky</div>`)[0];
+                popup_0b5ecbe24c35471696ea2ea7695f9eb8.setContent(html_8e7887a7a28641e984112e14c0bfda8b);
+            
+
+            marker_b9820cd3e5644626abea30652d0677de.bindPopup(popup_0b5ecbe24c35471696ea2ea7695f9eb8)
+            ;
+
+            
+        
+    
+        var marker_7dc9ed8d138b423aa22af708071f31aa = L.marker(
+            [35.6072, 1.8108],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_998f3f6571a34350b9abc2e7c8cd89a7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_762c2295e13e4a85b749c1c3baf0f8db = $(`<div id="html_762c2295e13e4a85b749c1c3baf0f8db" style="width: 100.0%; height: 100.0%;"><strong>Tissemsilt</strong><br>temperature: 15 °C <br>scattered clouds</div>`)[0];
+                popup_998f3f6571a34350b9abc2e7c8cd89a7.setContent(html_762c2295e13e4a85b749c1c3baf0f8db);
+            
+
+            marker_7dc9ed8d138b423aa22af708071f31aa.bindPopup(popup_998f3f6571a34350b9abc2e7c8cd89a7)
+            ;
+
+            
+        
+    
+        var marker_1137c49d235c47038f6f27fbea868f66 = L.marker(
+            [35.4358, 7.1433],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_de5bcb27d2e94811987fadfc10c20e41 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cde4a07a87b6472c8fcd54500e6c9070 = $(`<div id="html_cde4a07a87b6472c8fcd54500e6c9070" style="width: 100.0%; height: 100.0%;"><strong>Khenchela</strong><br>temperature: 14 °C <br>scattered clouds</div>`)[0];
+                popup_de5bcb27d2e94811987fadfc10c20e41.setContent(html_cde4a07a87b6472c8fcd54500e6c9070);
+            
+
+            marker_1137c49d235c47038f6f27fbea868f66.bindPopup(popup_de5bcb27d2e94811987fadfc10c20e41)
+            ;
+
+            
+        
+    
+        var marker_13c0b97bbeb5414d84f945d2af3e8a28 = L.marker(
+            [36.2864, 7.9511],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_454d9fadd4674db49eb4cc2c8c538aab = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4759e9d7b16e401698925ce85a04791b = $(`<div id="html_4759e9d7b16e401698925ce85a04791b" style="width: 100.0%; height: 100.0%;"><strong>Souk ahras</strong><br>temperature: 17 °C <br>overcast clouds</div>`)[0];
+                popup_454d9fadd4674db49eb4cc2c8c538aab.setContent(html_4759e9d7b16e401698925ce85a04791b);
+            
+
+            marker_13c0b97bbeb5414d84f945d2af3e8a28.bindPopup(popup_454d9fadd4674db49eb4cc2c8c538aab)
+            ;
+
+            
+        
+    
+        var marker_5aef0854c4fe425d952e6326d347bf13 = L.marker(
+            [36.5897, 2.4475],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_4c0510340b254ee6b92cd95bc96049d1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f61d1e9514904286bb712471ba7db53b = $(`<div id="html_f61d1e9514904286bb712471ba7db53b" style="width: 100.0%; height: 100.0%;"><strong>Tipaza</strong><br>temperature: 19 °C <br>clear sky</div>`)[0];
+                popup_4c0510340b254ee6b92cd95bc96049d1.setContent(html_f61d1e9514904286bb712471ba7db53b);
+            
+
+            marker_5aef0854c4fe425d952e6326d347bf13.bindPopup(popup_4c0510340b254ee6b92cd95bc96049d1)
+            ;
+
+            
+        
+    
+        var marker_f36f7b8254534c968b4dff93d16ed7bd = L.marker(
+            [36.4503, 6.2644],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_c756e508aa9a4e1aa3d4910d0937f2e0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e7d1635c1985454484423805c0691541 = $(`<div id="html_e7d1635c1985454484423805c0691541" style="width: 100.0%; height: 100.0%;"><strong>Mila</strong><br>temperature: 18 °C <br>overcast clouds</div>`)[0];
+                popup_c756e508aa9a4e1aa3d4910d0937f2e0.setContent(html_e7d1635c1985454484423805c0691541);
+            
+
+            marker_f36f7b8254534c968b4dff93d16ed7bd.bindPopup(popup_c756e508aa9a4e1aa3d4910d0937f2e0)
+            ;
+
+            
+        
+    
+        var marker_0c38447186a740d7b7101abee7f244d7 = L.marker(
+            [36.2641, 1.9679],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_fa2907a767554953883ddecf3b69190d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c622a5e150854f91a1701f44270b833c = $(`<div id="html_c622a5e150854f91a1701f44270b833c" style="width: 100.0%; height: 100.0%;"><strong>Ain defla</strong><br>temperature: 22 °C <br>clear sky</div>`)[0];
+                popup_fa2907a767554953883ddecf3b69190d.setContent(html_c622a5e150854f91a1701f44270b833c);
+            
+
+            marker_0c38447186a740d7b7101abee7f244d7.bindPopup(popup_fa2907a767554953883ddecf3b69190d)
+            ;
+
+            
+        
+    
+        var marker_e5937db01769461b995a002b204d62c0 = L.marker(
+            [33.2667, -0.3167],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_17a48708ed8a4d6a965ba3cc05ccd448 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_eba6f253d80f49f38976ee349920d2fd = $(`<div id="html_eba6f253d80f49f38976ee349920d2fd" style="width: 100.0%; height: 100.0%;"><strong>Naama</strong><br>temperature: 19 °C <br>broken clouds</div>`)[0];
+                popup_17a48708ed8a4d6a965ba3cc05ccd448.setContent(html_eba6f253d80f49f38976ee349920d2fd);
+            
+
+            marker_e5937db01769461b995a002b204d62c0.bindPopup(popup_17a48708ed8a4d6a965ba3cc05ccd448)
+            ;
+
+            
+        
+    
+        var marker_04c21a57aa9d413ebde4cf362cc27fff = L.marker(
+            [35.2975, -1.1404],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_769322b82e744e0a83811f9119b3df3c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4b2c9689e15844ceac472050ac67857a = $(`<div id="html_4b2c9689e15844ceac472050ac67857a" style="width: 100.0%; height: 100.0%;"><strong>Ain temouchent</strong><br>temperature: 18 °C <br>broken clouds</div>`)[0];
+                popup_769322b82e744e0a83811f9119b3df3c.setContent(html_4b2c9689e15844ceac472050ac67857a);
+            
+
+            marker_04c21a57aa9d413ebde4cf362cc27fff.bindPopup(popup_769322b82e744e0a83811f9119b3df3c)
+            ;
+
+            
+        
+    
+        var marker_4a3a3a93635a41cb951694e169cf7747 = L.marker(
+            [32.4909, 3.6735],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_e7ffef6f051a48818f8475d1863ba04a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_899a51dc9dcb4cb8bd343bbe1a3fb68f = $(`<div id="html_899a51dc9dcb4cb8bd343bbe1a3fb68f" style="width: 100.0%; height: 100.0%;"><strong>Ghardaia</strong><br>temperature: 20 °C <br>clear sky</div>`)[0];
+                popup_e7ffef6f051a48818f8475d1863ba04a.setContent(html_899a51dc9dcb4cb8bd343bbe1a3fb68f);
+            
+
+            marker_4a3a3a93635a41cb951694e169cf7747.bindPopup(popup_e7ffef6f051a48818f8475d1863ba04a)
+            ;
+
+            
+        
+    
+        var marker_ee3f37b3a0fe4c888ffc69a0d2376a57 = L.marker(
+            [35.7373, 0.556],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_366fbccde24c444ea30f30cc155d05cb);
+        
+    
+            var popup_59437d3470e14436ae0015fc3cee3f88 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f839eb2824cc4487b656ccb1ad9b68dc = $(`<div id="html_f839eb2824cc4487b656ccb1ad9b68dc" style="width: 100.0%; height: 100.0%;"><strong>Relizane</strong><br>temperature: 19 °C <br>clear sky</div>`)[0];
+                popup_59437d3470e14436ae0015fc3cee3f88.setContent(html_f839eb2824cc4487b656ccb1ad9b68dc);
+            
+
+            marker_ee3f37b3a0fe4c888ffc69a0d2376a57.bindPopup(popup_59437d3470e14436ae0015fc3cee3f88)
+            ;
+
+            
+        
+</script>
